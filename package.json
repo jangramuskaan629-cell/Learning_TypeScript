@@ -1,0 +1,23 @@
+{
+  "name": "learning_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jangramuskaan629-cell/Learning_TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangramuskaan629-cell/Learning_TypeScript/issues"
+  },
+  "homepage": "https://github.com/jangramuskaan629-cell/Learning_TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

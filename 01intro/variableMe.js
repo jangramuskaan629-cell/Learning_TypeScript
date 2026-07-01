@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let greetings = "Hello Muskaan";
 greetings.toLowerCase();
 console.log(greetings);
@@ -7,4 +9,10 @@ userId.toFixed();
 // userId = "Muskaan"
 //boolean
 let isLoggedIn = false;
-export {};
+// any
+let hero;
+function getHero() {
+    return "thor";
+}
+hero = getHero();
+//# sourceMappingURL=variableMe.js.map

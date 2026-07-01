@@ -8,10 +8,8 @@ function getUpper(val) {
     return val.toUpperCase();
 }
 function signUpUser(name, email, isPaid) { }
-var loginUser = function (name, email, isPaid) {
-    if (isPaid === void 0) { isPaid = false; }
-};
-var myValue = addTwo(5);
+let loginUser = (name, email, isPaid = false) => { };
+let myValue = addTwo(5);
 getUpper("hello");
 signUpUser("Muskaan", "muskaan@lco.dev", false);
 loginUser("M", "m@m.com");
@@ -21,13 +19,13 @@ loginUser("M", "m@m.com");
 //     }
 //     return "200 OK"
 // }
-var getHello = function (s) {
+const getHello = (s) => {
     return "";
 };
-var heros = ["thor", "spiderman", "ironman"];
+const heros = ["thor", "spiderman", "ironman"];
 // const heros = [1, 2, 3]
-heros.map(function (hero) {
-    return "hero is ".concat(hero);
+heros.map((hero) => {
+    return `hero is ${hero}`;
 });
 function consoleError(errmsg) {
     console.log(errmsg);
@@ -35,3 +33,4 @@ function consoleError(errmsg) {
 function handleError(errmsg) {
     throw new Error(errmsg);
 }
+//# sourceMappingURL=myfunctions.js.map

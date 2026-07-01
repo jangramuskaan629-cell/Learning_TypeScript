@@ -1,4 +1,5 @@
 "use strict";
-var user = { name: "Muskaan", age: 18 };
+Object.defineProperty(exports, "__esModule", { value: true });
+let myuser = { name: "Muskaan", age: 10 };
 console.log("Muskaan");
-console.log(user.email);
+//# sourceMappingURL=intro.js.map
